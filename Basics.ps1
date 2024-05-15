@@ -1,2 +1,2 @@
 Get-Date
-Get-Service
+Get-Help get-date
