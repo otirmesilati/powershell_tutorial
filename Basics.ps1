@@ -12,3 +12,5 @@ $Value3 = 6
 
 $Result = $Value1 + $Value3
 $Result
+$GivenName.GetType()
+$Result.GetType()
