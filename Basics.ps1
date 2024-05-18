@@ -6,6 +6,8 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -WhatIf
 $GivenName = "Richard"
 $GivenName
 
+# 0.2 - variables
+
 $Value1 = 4
 $Value2 = 5
 $Value3 = 6
@@ -14,3 +16,5 @@ $Result = $Value1 + $Value3
 $Result
 $GivenName.GetType()
 $Result.GetType()
+$DoubleValue = 3.2
+$DoubleValue.GetType()
