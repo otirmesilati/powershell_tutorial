@@ -18,3 +18,6 @@ $GivenName.GetType()
 $Result.GetType()
 $DoubleValue = 3.2
 $DoubleValue.GetType()
+
+$Employed = $true
+$Employed.GetType()
