@@ -25,6 +25,7 @@ $Employed.GetType()
 $Today = Get-Date
 $Today
 
-$Name = @()
-$Name.GetType()
-$Name.IsFixedSize
+$Names = @('Bob', 'Steve', 'John')
+$Names.GetType()
+$Names.IsFixedSize
+$Names
