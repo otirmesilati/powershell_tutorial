@@ -29,3 +29,4 @@ $Names = @('Bob', 'Steve', 'John')
 $Names.GetType()
 $Names.IsFixedSize
 $Names
+$Names[1]
