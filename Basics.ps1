@@ -24,3 +24,7 @@ $Employed.GetType()
 
 $Today = Get-Date
 $Today
+
+$Name = @()
+$Name.GetType()
+$Name.IsFixedSize
