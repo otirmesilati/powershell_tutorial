@@ -21,3 +21,6 @@ $DoubleValue.GetType()
 
 $Employed = $true
 $Employed.GetType()
+
+$Today = Get-Date
+$Today
