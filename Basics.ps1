@@ -69,3 +69,4 @@ $Users.Add('Gadi', 'Gadot')
 $Users
 $Users['Dani'] = 'Dagan'
 $Users
+$Users['Moshe']
