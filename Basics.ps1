@@ -67,3 +67,5 @@ $Users['bobt']
 $Users.bobt
 $Users.Add('Gadi', 'Gadot')
 $Users
+$Users['Dani'] = 'Dagan'
+$Users
