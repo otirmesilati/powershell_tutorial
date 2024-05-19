@@ -35,3 +35,7 @@ $Names
 $Names += 'Tim'
 $Names = $Names -ne 'John'
 $Names
+
+$Namelist = [System.Collections.ArrayList]@()
+$Namelist.GetType()
+$Namelist.IsFixedSize
