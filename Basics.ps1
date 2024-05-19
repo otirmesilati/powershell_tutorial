@@ -63,3 +63,4 @@ $Users
 $Users.GetType()
 $Users.Keys
 $Users.Values
+$Users['bobt']
