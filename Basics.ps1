@@ -65,3 +65,5 @@ $Users.Keys
 $Users.Values
 $Users['bobt']
 $Users.bobt
+$Users.Add('Gadi', 'Gadot')
+$Users
