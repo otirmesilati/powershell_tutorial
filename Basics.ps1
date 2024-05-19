@@ -70,3 +70,4 @@ $Users
 $Users['Dani'] = 'Dagan'
 $Users
 $Users['Moshe']
+$Users.Contains('Moshe')
