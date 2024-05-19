@@ -48,7 +48,15 @@ $Namelist
 $Array = @()
 $Arraylist = [System.Collections.ArrayList]@()
 
-Measure-Command -Expression { @(0..50000).ForEach({ $Array += $_ }) }
-Measure-Command -Expression { @(0..50000).ForEach({ $Arraylist.Add($_) }) } # This is significantly faster!
+# Measure-Command -Expression { @(0..50000).ForEach({ $Array += $_ }) }
+# Measure-Command -Expression { @(0..50000).ForEach({ $Arraylist.Add($_) }) } # This is significantly faster!
 
 # 0.3 - "Container" Objects
+
+$Users = @{
+    johns  = 'John Smith'
+    Bobt   = 'Bob Test'
+    Stevep = "Steve Pickle"
+}
+
+$Users
