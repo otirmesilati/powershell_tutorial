@@ -55,8 +55,8 @@ $Arraylist = [System.Collections.ArrayList]@()
 
 $Users = @{
     johns  = 'John Smith'
-    Bobt   = 'Bob Test'
-    Stevep = "Steve Pickle"
+    bobt   = 'Bob Test'
+    stevep = "Steve Pickle"
 }
 
 $Users
@@ -64,3 +64,4 @@ $Users.GetType()
 $Users.Keys
 $Users.Values
 $Users['bobt']
+$Users.bobt
