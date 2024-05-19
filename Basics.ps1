@@ -44,3 +44,11 @@ $Namelist.Add('Mike')
 $Namelist
 $Namelist.Remove('Mike')
 $Namelist
+
+$Array = @()
+$Arraylist = [System.Collections.ArrayList]@()
+
+Measure-Command -Expression { @(0..50000).ForEach({ $Array += $_ }) }
+Measure-Command -Expression { @(0..50000).ForEach({ $Arraylist.Add($_) }) } # This is significantly faster!
+
+# 0.3 - "Container" Objects
