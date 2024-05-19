@@ -41,3 +41,6 @@ $Namelist.GetType()
 $Namelist.IsFixedSize
 $Namelist[1]
 $Namelist.Add('Mike')
+$Namelist
+$Namelist.Remove('Mike')
+$Namelist
