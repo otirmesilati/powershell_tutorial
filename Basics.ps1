@@ -30,3 +30,5 @@ $Names.GetType()
 $Names.IsFixedSize
 $Names
 $Names[1]
+$Names = $Names + 'Paul'
+$Names
