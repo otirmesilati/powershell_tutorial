@@ -32,3 +32,4 @@ $Names
 $Names[1]
 $Names = $Names + 'Paul'
 $Names
+$Names += 'Tim'
