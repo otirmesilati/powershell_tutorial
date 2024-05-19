@@ -33,3 +33,5 @@ $Names[1]
 $Names = $Names + 'Paul'
 $Names
 $Names += 'Tim'
+$Names = $Names -ne 'John'
+$Names
