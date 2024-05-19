@@ -39,3 +39,5 @@ $Names
 $Namelist = [System.Collections.ArrayList]@()
 $Namelist.GetType()
 $Namelist.IsFixedSize
+$Namelist[1]
+$Namelist.Add('Mike')
