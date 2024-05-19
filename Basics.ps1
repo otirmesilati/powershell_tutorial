@@ -60,3 +60,6 @@ $Users = @{
 }
 
 $Users
+$Users.GetType()
+$Users.Keys
+$Users.Values
