@@ -71,3 +71,9 @@ $Users['Dani'] = 'Dagan'
 $Users
 $Users['Moshe']
 $Users.Contains('Moshe')
+$Users.Contains('Dani')
+$Users.ContainsKey('Dani')
+$Users.ContainsValue('Dani')
+$Users.Contains('Dagan')
+$Users.ContainsValue('Dagan')
+
