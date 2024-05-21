@@ -77,9 +77,12 @@ $Users.ContainsValue('Dani')
 $Users.Contains('Dagan')
 $Users.ContainsValue('Dagan')
 
+# Same procedure, 2 different ways of writing
 $Dog = New-Object -TypeName PSCustomObject
 Add-Member -InputObject $Dog -MemberType NoteProperty -Name 'Name' -Value 'Penny'
 Add-Member -InputObject $Dog -MemberType NoteProperty -Name 'Breed' -Value 'Pug'
 $Dog
 
 Get-Member -InputObject $Dog
+$Cat=[PSCustomObject]@{Name='Franky';Breed='Persian'}
+$Cat
