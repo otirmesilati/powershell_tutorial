@@ -86,3 +86,5 @@ $Dog
 Get-Member -InputObject $Dog
 $Cat=[PSCustomObject]@{Name='Franky';Breed='Persian'}
 $Cat
+
+# 0.4 - Pipelining
