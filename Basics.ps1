@@ -89,3 +89,5 @@ $Cat
 
 # 0.4 - Pipelining
 Get-Service
+$ServiceName = 'Spooler'
+Get-Service -Name $ServiceName
