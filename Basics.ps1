@@ -88,3 +88,4 @@ $Cat=[PSCustomObject]@{Name='Franky';Breed='Persian'}
 $Cat
 
 # 0.4 - Pipelining
+Get-Service
