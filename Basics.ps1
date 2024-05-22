@@ -91,3 +91,6 @@ $Cat
 Get-Service
 $ServiceName = 'Spooler'
 Get-Service -Name $ServiceName
+Stop-Service -Name $ServiceName
+Get-Service -Name $ServiceName | Start-Service
+
