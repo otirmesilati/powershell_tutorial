@@ -94,3 +94,6 @@ $ServiceName = 'Spooler'
 # Stop-Service -Name $ServiceName
 # Get-Service -Name $ServiceName | Start-Service
 
+$Services = [System.Collections.ArrayList]@('Spooler','w32Time')  
+
+$Services | Get-Service
