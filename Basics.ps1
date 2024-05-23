@@ -97,3 +97,5 @@ $ServiceName = 'Spooler'
 $Services = [System.Collections.ArrayList]@('Spooler','w32Time')  
 
 $Services | Get-Service
+
+Get-Help -name Get-Service -Full
