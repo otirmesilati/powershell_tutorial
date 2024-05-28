@@ -100,4 +100,9 @@ $Services | Get-Service
 
 Get-Help -name Get-Service -Full
 
-// $ServiceObject = New-Object TypeName PSCustomObject
+$ServiceObject = New-Object TypeName PSCustomObject
+
+Add-Member -InputObject $ServiceObject -MemberType NoteProperty -Name 'Name' -Value 'Spooler'
+Add-Member -InputObject $ServiceObject -MemberType NoteProperty -Name 'ComputerName' -Value 'DESKTOP-OPDTO2S'
+
+
