@@ -105,4 +105,9 @@ Get-Help -name Get-Service -Full
 # Add-Member -InputObject $ServiceObject -MemberType NoteProperty -Name 'Name' -Value 'Spooler'
 # Add-Member -InputObject $ServiceObject -MemberType NoteProperty -Name 'ComputerName' -Value 'DESKTOP-OPDTO2S'
 
+# 0.5 - Control Flow
+
+1 -eq 1
+1 -eq 2
+3 -gt 0
 
