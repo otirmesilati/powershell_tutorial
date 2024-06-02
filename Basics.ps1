@@ -110,4 +110,7 @@ Get-Help -name Get-Service -Full
 1 -eq 1
 1 -eq 2
 3 -gt 0
+2 -le 5
+
+@(1, 2, 3) -contains 4
 
