@@ -113,4 +113,5 @@ Get-Help -name Get-Service -Full
 2 -le 5
 
 @(1, 2, 3) -contains 4
+"PowerShell" -like "power*"
 
