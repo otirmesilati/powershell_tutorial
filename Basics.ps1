@@ -115,3 +115,5 @@ Get-Help -name Get-Service -Full
 @(1, 2, 3) -contains 4
 "PowerShell" -like "power*"
 
+$filepath = "C:\Users\otirm_2hwnj4i\Desktop\hmm.txt"
+Test-Path -Path $filepath
