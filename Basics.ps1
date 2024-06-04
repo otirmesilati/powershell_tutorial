@@ -117,3 +117,7 @@ Get-Help -name Get-Service -Full
 
 $filepath = "C:\Users\otirm_2hwnj4i\Desktop\hmm.txt"
 Test-Path -Path $filepath
+
+if(Test-Path -Path $filepath) {
+    Write-Output " Hi! "
+}
