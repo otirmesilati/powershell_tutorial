@@ -120,4 +120,8 @@ Test-Path -Path $filepath
 
 if(Test-Path -Path $filepath) {
     Write-Output " Hi! "
+    Get-Content -Path $filepath
+}else{
+Write-Output "The file does not exist" 
 }
+
