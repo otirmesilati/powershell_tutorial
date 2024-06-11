@@ -128,3 +128,9 @@ Write-Output "The file does not exist"
 }
 
 $Data.count
+$First = $Data[0]
+switch($First){
+    "Mike"{"It's Mike!"}
+    "John"{"It's John!"}
+    default{"It's not Mike or John!"}
+}
