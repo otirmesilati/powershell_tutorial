@@ -139,3 +139,4 @@ $filepath = "C:\Data\Names.txt"
 $Names = Get-Content -Path $filepath
 
 $current = $Names[0]
+Get-Content -Path "C:\Data\Names.txt\$current\config.txt"
