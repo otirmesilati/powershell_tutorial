@@ -115,7 +115,7 @@ Get-Help -name Get-Service -Full
 @(1, 2, 3) -contains 4
 "PowerShell" -like "power*"
 
-# 0.6 - Pathing
+# 0.6 to 0.8 - Pathing
 
 $filepath = "C:\Users\otirm_2hwnj4i\Desktop\hmm.txt"
 Test-Path -Path $filepath
@@ -134,3 +134,8 @@ switch($First){
     "John"{"It's John!"}
     default{"It's not Mike or John!"}
 }
+
+$filepath = "C:\Data\Names.txt"
+$Names = Get-Content -Path $filepath
+
+$current = $Names[0]
