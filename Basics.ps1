@@ -115,13 +115,16 @@ Get-Help -name Get-Service -Full
 @(1, 2, 3) -contains 4
 "PowerShell" -like "power*"
 
+# 0.6 - Pathing
+
 $filepath = "C:\Users\otirm_2hwnj4i\Desktop\hmm.txt"
 Test-Path -Path $filepath
 
 if(Test-Path -Path $filepath) {
     Write-Output " Hi! "
-    Get-Content -Path $filepath
-}else{
+    $Data = Get-Content -Path $filepath}
+    else{
 Write-Output "The file does not exist" 
 }
 
+$Data.count
