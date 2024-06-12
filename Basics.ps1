@@ -146,3 +146,11 @@ Get-Content -Path "C:\data\Names\$($Names[1])\config.txt"
 Get-Content -Path "C:\data\Names\$($Names[2])\config.txt"
 Get-Content -Path "C:\data\Names\$($Names[3])\config.txt"
 Get-Content -Path "C:\data\Names\$($Names[4])\config.txt"
+
+foreach($Name in $Names){
+    Get-Content -Path "C:\data\Names\$Name\config.txt"
+}
+
+$Names | ForEach-Object -Process{
+    Get-Content -Path "C:\data\Names\$_\config.txt"
+}
