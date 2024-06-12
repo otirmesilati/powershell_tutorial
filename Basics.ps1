@@ -213,4 +213,12 @@ finally{
     Write-Output "This will always run no matter what"
 }
 
+# 1.1 - functions 
+
+function Create-Configuration{
+    Write-Output "Creating configuration file..."
+}
+
+Create-Configuration
+
 
