@@ -115,7 +115,7 @@ Get-Help -name Get-Service -Full
 @(1, 2, 3) -contains 4
 "PowerShell" -like "power*"
 
-# 0.6 to 0.8 - Pathing
+# 0.6 to 0.9 - Pathing
 
 $filepath = "C:\Users\otirm_2hwnj4i\Desktop\hmm.txt"
 Test-Path -Path $filepath
@@ -154,3 +154,8 @@ foreach($Name in $Names){
 $Names | ForEach-Object -Process{
     Get-Content -Path "C:\data\Names\$_\config.txt"
 }
+
+for($i = 0; $i -lt 10; $i++){
+    $i
+}
+
