@@ -169,6 +169,12 @@ for($i = 0; $i -lt $Names.Length; $i++){
 
 $Names
 
-while((get-date)){
+while((get-date).Minute -eq 56){
     Get-Date
+}  
+
+while(true){
+    Get-Date
+    break
 }
+
