@@ -216,6 +216,11 @@ finally{
 # 1.1 - functions 
 
 function Create-Configuration{
+    [CmdletBinding()]
+    param(
+        [Parameter()]
+        [string] $Name
+    )
     Write-Output "Creating configuration file..."
 }
 
