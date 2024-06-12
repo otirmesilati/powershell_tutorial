@@ -173,8 +173,21 @@ while((get-date).Minute -eq 56){
     Get-Date
 }  
 
-while(true){
+while($true){
     Get-Date
     break
 }
 
+while($false){
+    Write-Output "Hi"
+}
+
+do{
+    Write-Output "Hi"
+}
+while($false)
+
+do{
+    Write-Output "Hi"
+}
+until($true)
