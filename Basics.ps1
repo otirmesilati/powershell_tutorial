@@ -198,8 +198,14 @@ $ErrorActionPreference = "Stop"
 
 $filepath = "C:\Data\Wrong"
 try{
-
+    $files = Get-ChildItem -Path $filepath
+    Write-Output "Should still see this even if error happened"
+    $files.foreach({
+        $content = Get-Content -Path $_.fullname
+        $content
+    })
 }
 catch{
-    
+    Write-Output "Error error"
 }
+
