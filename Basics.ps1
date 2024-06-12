@@ -191,3 +191,15 @@ do{
     Write-Output "Hi"
 }
 until($true)
+
+# 1.0 - Error handling
+
+$ErrorActionPreference = "Stop"
+
+$filepath = "C:\Data\Wrong"
+try{
+
+}
+catch{
+    
+}
