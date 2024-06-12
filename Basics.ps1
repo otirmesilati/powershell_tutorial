@@ -160,12 +160,14 @@ for($i = 0; $i -lt 10; $i++){
 }
 
 for($i = 0; $i -lt $Names.Length; $i++){
-    # TODO
+    Get-Content -Path "C:\data\Names\$($Names[$i]))\config.txt"
 }
 
 for($i = 0; $i -lt $Names.Length; $i++){
-    # TODO
+    $Names[$i] = "Test $i"
 }
+
+$Names
 
 while((get-date)){
     Get-Date
