@@ -159,3 +159,14 @@ for($i = 0; $i -lt 10; $i++){
     $i
 }
 
+for($i = 0; $i -lt $Names.Length; $i++){
+    # TODO
+}
+
+for($i = 0; $i -lt $Names.Length; $i++){
+    # TODO
+}
+
+while((get-date)){
+    Get-Date
+}
