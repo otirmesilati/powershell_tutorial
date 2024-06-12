@@ -204,8 +204,13 @@ try{
         $content = Get-Content -Path $_.fullname
         $content
     })
+    Write-Output "No errors"
 }
 catch{
-    Write-Output "Error error"
+    $Error[0].Execution.Message
 }
+finally{
+    Write-Output "This will always run no matter what"
+}
+
 
