@@ -142,3 +142,7 @@ $current = $Names[0]
 Get-Content -Path "C:\Data\Names\$current\config.txt"
 
 Get-Content -Path "C:\data\Names\$($Names[0])\config.txt"
+Get-Content -Path "C:\data\Names\$($Names[1])\config.txt"
+Get-Content -Path "C:\data\Names\$($Names[2])\config.txt"
+Get-Content -Path "C:\data\Names\$($Names[3])\config.txt"
+Get-Content -Path "C:\data\Names\$($Names[4])\config.txt"
