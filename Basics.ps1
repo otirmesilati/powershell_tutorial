@@ -249,4 +249,6 @@ Get-Module -ListAvailable
 
 Import-Module -Name WindowsUpdate
 
+Get-Command -Module WindowsUpdate
+
  
