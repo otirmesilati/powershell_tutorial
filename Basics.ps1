@@ -247,4 +247,6 @@ $env:PSModulePath
 
 Get-Module -ListAvailable
 
+Import-Module -Name WindowsUpdate
+
  
