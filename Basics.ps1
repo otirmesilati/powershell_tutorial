@@ -225,10 +225,22 @@ function Create-Configuration{
         [string] $Version = "1"
         
     )
+
+    begin{
+        Write-Output "Creating configuration file with the name"
+    }
+
+    process{
     Write-Output "Creating configuration file with the name: $Name at version $Version ..."
+    }
+
+    end {
+        Write-Output "Creating configuration file with the name"
+    }
 }
 
 $Names = @("Test1", "Test2", "Test3")
 $Names | Create-Configuration "config-SRV1" -Version "2"
 
 
+ 
