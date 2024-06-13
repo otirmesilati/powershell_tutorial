@@ -242,5 +242,7 @@ function Create-Configuration{
 $Names = @("Test1", "Test2", "Test3")
 $Names | Create-Configuration "config-SRV1" -Version "2"
 
+# 1.2 - modules
+$env:PSModulePath
 
  
