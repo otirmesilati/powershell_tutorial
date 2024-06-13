@@ -256,3 +256,5 @@ Get-WindowsUpdateLog
 Import-Module -Name WindowsUpdate -Force
 
 Remove-Module -Name WindowsUpdate
+
+ function Get-Configuration {}
