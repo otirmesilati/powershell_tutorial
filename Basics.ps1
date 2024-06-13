@@ -226,6 +226,6 @@ function Create-Configuration{
     Write-Output "Creating configuration file with the name: $Name ..."
 }
 
-Create-Configuration
+Create-Configuration -Name "config-SRV1"
 
 
