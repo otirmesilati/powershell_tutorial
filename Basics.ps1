@@ -252,3 +252,5 @@ Import-Module -Name WindowsUpdate
 Get-Command -Module WindowsUpdate
 
 Get-WindowsUpdateLog
+
+Import-Module -Name WindowsUpdate -Force
