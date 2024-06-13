@@ -221,7 +221,7 @@ function Create-Configuration{
         [Parameter()]
         [string] $Name
     )
-    Write-Output "Creating configuration file..."
+    Write-Output "Creating configuration file with the name: $Name ..."
 }
 
 Create-Configuration
