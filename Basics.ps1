@@ -245,4 +245,6 @@ $Names | Create-Configuration "config-SRV1" -Version "2"
 # 1.2 - modules
 $env:PSModulePath
 
+Get-Module -ListAvailable
+
  
