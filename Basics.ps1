@@ -218,7 +218,7 @@ finally{
 function Create-Configuration{
     [CmdletBinding()]
     param(
-        [Parameter(Mandatory)]
+        [Parameter(Mandatory, ValueFromPipeline)]
         [string] $Name , 
         [Parameter()]
         [ValidateSet("1","2")]
@@ -228,6 +228,7 @@ function Create-Configuration{
     Write-Output "Creating configuration file with the name: $Name at version $Version ..."
 }
 
-Create-Configuration -Name "config-SRV1" -Version "2"
+$Names = @("Test1", "Test2", "Test3")
+$Names | Create-Configuration "config-SRV1" -Version "2"
 
 
