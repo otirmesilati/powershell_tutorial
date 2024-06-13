@@ -221,11 +221,13 @@ function Create-Configuration{
         [Parameter(Mandatory)]
         [string] $Name , 
         [Parameter()]
+        [ValidateSet("1","2")]
         [string] $Version = "1"
+        
     )
     Write-Output "Creating configuration file with the name: $Name at version $Version ..."
 }
 
-Create-Configuration -Name "config-SRV1" -Version "4"
+Create-Configuration -Name "config-SRV1" -Version "2"
 
 
