@@ -261,3 +261,8 @@ Remove-Module -Name WindowsUpdate
     [cmdletBinding()]
     Param()
  }
+
+ function Set-Configuration {
+    [cmdletBinding()]
+    Param()
+ }
