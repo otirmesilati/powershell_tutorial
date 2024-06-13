@@ -218,8 +218,10 @@ finally{
 function Create-Configuration{
     [CmdletBinding()]
     param(
+        [Parameter(Mandatory)]
+        [string] $Name , 
         [Parameter()]
-        [string] $Name
+        [string] $Version = "1"
     )
     Write-Output "Creating configuration file with the name: $Name ..."
 }
